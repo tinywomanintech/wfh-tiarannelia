@@ -1,0 +1,101 @@
+footer {
+  background-color: #0b24fb;
+  color: #ffffff;
+  .footer-container {
+    padding: 0 5rem 0 5rem;
+    .footer-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0 1rem 0;
+
+      p {
+        margin: 0;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+      .btn-version {
+        width: 130px;
+        height: 24px;
+        border-radius: 12px;
+        border: solid 1px #ffffff;
+        color: #ffffff;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+      }
+      .btn-version:hover {
+        border: solid 1px #0b24fb;
+        background-color: #ffffff;
+        color: #0b24fb;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    .footer-container {
+      padding: 0 1.5rem 0 2rem;
+      .footer-section {
+        p {
+          font-size: 12px;
+        }
+        .btn-version {
+          width: 94px;
+          height: 18px;
+          font-size: 10px;
+        }
+        .btn-version:hover {
+          border: solid 1px #0b24fb;
+          background-color: #ffffff;
+          color: #0b24fb;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    .footer-container {
+      padding: 0 1.5rem 0 1.5rem;
+      .footer-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0 1rem 0;
+
+        p {
+          font-size: 12px;
+          margin: 0;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #ffffff;
+        }
+        .btn-version {
+          width: 94px;
+          height: 18px;
+          border-radius: 12px;
+          border: solid 1px #ffffff;
+          color: #ffffff;
+          background-color: transparent;
+          font-size: 10px;
+          font-weight: 300;
+          text-align: center;
+        }
+        .btn-version:hover {
+          border: solid 1px #0b24fb;
+          background-color: #ffffff;
+          color: #0b24fb;
+        }
+      }
+    }
+  }
+}

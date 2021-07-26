@@ -1,0 +1,183 @@
+.hero-section {
+  .hero-container {
+    padding: 5.5rem 0 5rem 0;
+    .hero-wrapper {
+      text-align: center;
+      color: #ffff;
+      h1 {
+        font-weight: 900;
+        font-size: 3.875rem;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+      h5 {
+        font-weight: 600;
+        font-size: 1.3125rem;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+      .hero-image {
+        padding-top: 5rem;
+      }
+
+      .btn-started {
+        width: 231px;
+        height: 58px;
+        margin: -9rem 2rem 2rem 2rem;
+        padding: 20px 19px;
+        border-radius: 29px;
+        box-shadow: rgba(249, 131, 171, 0.5) 0px 20px 30px 0px;
+        background-color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        transition: 0.2s all;
+      }
+      .btn-started:hover {
+        background: #eebece;
+        color: #ffff;
+        box-shadow: 0px 0px 10px pink, 0px 0px 40px pink, 0px 0px 80px pink;
+        transition-delay: 0.2s;
+        border-radius: 29px;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-section {
+    .hero-container {
+      padding: 5.5rem 0 5rem 0;
+      .hero-wrapper {
+        text-align: center;
+        color: #ffff;
+        h1 {
+          font-weight: 900;
+          font-size: 3.875rem;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+          margin-bottom: 1rem;
+        }
+        h5 {
+          font-weight: 600;
+          font-size: 1.3125rem;
+          font-stretch: normal;
+          font-style: italic;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+        }
+        .hero-image {
+          padding-top: 5rem;
+        }
+
+        .btn-started {
+          width: 231px;
+          height: 58px;
+          margin: -9rem 2rem 2rem 2rem;
+          padding: 20px 19px;
+          border-radius: 29px;
+          box-shadow: rgba(249, 131, 171, 0.5) 0px 20px 30px 0px;
+          background-color: #ffffff;
+          text-align: center;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #000000;
+          transition: 0.2s all;
+        }
+        .btn-started:hover {
+          background: #eebece;
+          color: #ffff;
+          box-shadow: 0px 0px 10px pink, 0px 0px 40px pink, 0px 0px 80px pink;
+          transition-delay: 0.2s;
+          border-radius: 29px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    .hero-container {
+      padding: 4.9rem 1.5rem 0 1.5rem;
+      .hero-wrapper {
+        h1 {
+          font-size: 47px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.98;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+        }
+        h5 {
+          font-size: 14px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: italic;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+        }
+        .hero-image {
+          padding-top: 5rem;
+        }
+
+        .btn-started {
+          width: 231px;
+          height: 58px;
+          margin: -9rem 2rem 2rem 2rem;
+          padding: 20px 19px;
+          border-radius: 29px;
+          box-shadow: rgba(249, 131, 171, 0.5) 0px 20px 30px 0px;
+          background-color: #ffffff;
+          text-align: center;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #000000;
+          transition: 0.2s all;
+        }
+        .btn-started:hover {
+          background: #eebece;
+          color: #ffff;
+          box-shadow: 0px 0px 10px pink, 0px 0px 40px pink, 0px 0px 80px pink;
+          transition-delay: 0.2s;
+          border-radius: 29px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+  }
+}

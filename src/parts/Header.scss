@@ -1,0 +1,21 @@
+.navbar {
+  .navbar-container {
+    padding-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    .navbar-container {
+      padding-left: 2rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    .navbar-container {
+      padding-left: 1.5rem;
+    }
+  }
+}

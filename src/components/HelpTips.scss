@@ -1,0 +1,263 @@
+// ---------------------------------------------
+
+.helpntips {
+  background-color: black;
+  height: auto;
+  .helpntips-section {
+    .helpntips-container {
+      padding: 2rem 2rem 2rem 2rem;
+      background-image: url(../assets/images/path.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: 159px;
+
+      h1 {
+        font-size: 32px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 2rem;
+      }
+      .helpntips-wrapper {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 5rem 2rem 5rem;
+        .article-helpntips {
+          position: relative;
+          max-width: 800px;
+          margin: 0 auto;
+          img {
+            // margin: 0 0.5rem 0 0.5rem;
+            max-width: 285px;
+            margin-bottom: 0.8rem;
+          }
+          .content {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            max-width: 100%;
+            margin-bottom: 0.8rem;
+            padding: 15px 10px 10px 20px;
+          }
+          .content:hover {
+            background: rgb(0, 0, 0);
+            background: rgba(247, 239, 239, 0.5);
+          }
+          figcaption {
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.57px;
+            color: #ffffff;
+            margin-right: 0.5rem;
+            text-align: left;
+          }
+          .animate__animated:hover {
+            display: inline-block;
+            animation: swing;
+            animation-duration: 2s;
+          }
+        }
+      }
+    }
+  }
+  .quote-section {
+    .quote-wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      .quote-text {
+        padding: 0 0 0 0;
+
+        h1 {
+          font-size: 32px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+          margin-bottom: 2rem;
+        }
+        h3 {
+          font-size: 18px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: -0.57px;
+          color: #ffffff;
+          text-align: center;
+          padding: 0 4rem 0rem 5rem;
+        }
+      }
+      .quote-image {
+        img {
+          max-height: 325px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .helpntips {
+    background-color: black;
+    height: auto;
+    .helpntips-section {
+      .helpntips-container {
+        padding: 2rem 2rem 2rem 2rem;
+        background-image: url(../assets/images/path.png);
+        background-position: top right 15px;
+        background-repeat: no-repeat;
+
+        .helpntips-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          padding: 1rem 1rem 2rem 1rem;
+        }
+      }
+    }
+    .quote-section {
+      .quote-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .quote-text {
+          h3 {
+            padding: 0 2rem 0 2rem;
+          }
+        }
+        .quote-image {
+          img {
+            max-height: 325px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .helpntips {
+    background-color: black;
+    height: auto;
+    .helpntips-section {
+      .helpntips-container {
+        padding: 2rem 2rem 2rem 2rem;
+        background-image: none;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 159px;
+        padding: 2rem 2rem 2rem 2rem;
+        h1 {
+          font-size: 32px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #ffffff;
+          margin-bottom: 2rem;
+        }
+        .helpntips-wrapper {
+          display: flex;
+          flex-direction: column;
+          padding: 0 0 0 0;
+          .article-helpntips {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            img {
+              // margin: 0 0.5rem 0 0.5rem;
+              max-width: 285px;
+              // margin-bottom: 0.8rem;
+            }
+            .content {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              position: absolute;
+              bottom: 0;
+              background: rgb(0, 0, 0);
+              background: rgba(0, 0, 0, 0.5);
+              color: #f1f1f1;
+              width: 100%;
+              padding: 15px 10px 15px 20px;
+            }
+            .content:hover {
+              background: rgb(0, 0, 0);
+              background: rgba(247, 239, 239, 0.5);
+            }
+            figcaption {
+              font-size: 16px;
+              font-weight: bold;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: -0.57px;
+              color: #ffffff;
+              margin-right: 0.5rem;
+              text-align: left;
+            }
+            .animate__animated:hover {
+              display: inline-block;
+              animation: swing;
+              animation-duration: 2s;
+            }
+          }
+        }
+      }
+    }
+    .quote-section {
+      .quote-wrapper {
+        display: flex;
+        flex-direction: column;
+        .quote-text {
+          padding: 2rem 2rem 2rem 2rem;
+          h1 {
+            font-size: 32px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom: 2rem;
+          }
+          h3 {
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: -0.57px;
+            text-align: left;
+            color: #ffffff;
+            padding: 0 0rem 0rem 0rem;
+          }
+        }
+        .quote-image {
+          img {
+            max-height: 325px;
+          }
+        }
+      }
+    }
+  }
+}
